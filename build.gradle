@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply from: 'versions.gradle'
+
+group = 'demo'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+allprojects {
+    apply plugin: 'idea'
+    apply plugin: 'eclipse'
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+}
+
+task copyJars(type: Copy) {
+    from configurations.runtime
+    into 'lib'
+}
+
+subprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+
+}

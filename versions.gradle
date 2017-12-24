@@ -1,0 +1,37 @@
+ext {
+    deps = [
+            "spring-core"         : 'org.springframework:spring-core:4.3.13.RELEASE',
+            "spring-context"      : 'org.springframework:spring-context:4.3.13.RELEASE',
+            "spring-test"         : 'org.springframework:spring-test:4.3.13.RELEASE',
+            "spring-webmvc"       : 'org.springframework:spring-webmvc:4.3.13.RELEASE',
+            "spring-aop"          : 'org.springframework:spring-aop:4.3.13.RELEASE',
+            "spring-beans"        : 'org.springframework:spring-beans:4.3.13.RELEASE',
+            "spring-web"          : 'org.springframework:spring-web:4.3.13.RELEASE',
+            "spring-expression"   : 'org.springframework:spring-expression:4.3.13.RELEASE',
+            "spring-boot"         : 'org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE',
+            "spring-boot-starter" : 'org.springframework.boot:spring-boot-starter:1.5.9.RELEASE',
+            "spring-boot-actuator": 'org.springframework.boot:spring-boot-actuator:1.5.9.RELEASE',
+            "spring-boot-autoconfigure": 'org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE',
+            "spring-boot-starter-actuator": 'org.springframework.boot:spring-boot-starter-actuator:1.5.9.RELEASE',
+
+            "spring-cloud-commons": 'org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE',
+            "spring-cloud-context": 'org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE',
+            "spring-cloud-core"   : 'org.springframework.cloud:spring-cloud-core:1.2.5.RELEASE',
+            "spring-cloud-starter": 'org.springframework.cloud:spring-cloud-starter:1.3.0.RELEASE',
+            "spring-cloud-starter-config": 'org.springframework.cloud:spring-cloud-starter-config:1.4.0.RELEASE',
+            "spring-cloud-starter-eureka": 'org.springframework.cloud:spring-cloud-starter-eureka:1.4.0.RELEASE',
+            "spring-cloud-starter-eureka-server": 'org.springframework.cloud:spring-cloud-starter-eureka-server:1.4.0.RELEASE',
+            "spring-cloud-starter-hystrix": 'org.springframework.cloud:spring-cloud-starter-hystrix:1.4.0.RELEASE',
+            "spring-cloud-starter-hystrix-dashboard": 'org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:1.4.0.RELEASE',
+            "spring-cloud-starter-sleuth": 'org.springframework.cloud:spring-cloud-starter-sleuth:1.3.0.RELEASE',
+            "spring-cloud-sleuth-zipkin": 'org.springframework.cloud:spring-cloud-sleuth-zipkin:1.3.0.RELEASE',
+            "spring-cloud-starter-zuul": 'org.springframework.cloud:spring-cloud-starter-zuul:1.4.0.RELEASE',
+            "spring-cloud-starter-ribbon": 'org.springframework.cloud:spring-cloud-starter-ribbon:1.4.0.RELEASE',
+            "spring-config-server": 'org.springframework.cloud:spring-cloud-config-server:1.4.0.RELEASE',
+            "spring-config-client": 'org.springframework.cloud:spring-cloud-config-client:1.4.0.RELEASE',
+
+            "fastjson"            : 'com.alibaba:fastjson:1.2.28',
+            "zipkin-server"       : 'io.zipkin.java:zipkin-server:2.4.1',
+            "zipkin-autoconfigure-ui" : 'io.zipkin.java:zipkin-autoconfigure-ui:2.4.1',
+    ]
+}

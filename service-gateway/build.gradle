@@ -1,0 +1,27 @@
+group 'demo'
+version '0.0.1-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":inventory-service-provider")
+    compile project(":comment-service-provider")
+//    compile deps["spring-webmvc"]
+    compile deps["spring-beans"]
+//    compile deps["spring-boot"]
+    compile deps["spring-config-client"]
+    compile deps["spring-cloud-starter-eureka"]
+    compile deps["spring-cloud-starter-hystrix"]
+    compile deps["spring-cloud-starter-zuul"]
+    compile deps["spring-cloud-starter-sleuth"]
+    compile deps["spring-cloud-sleuth-zipkin"]
+    compile deps["spring-boot-starter-actuator"]
+//    compile deps["fastjson"]
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

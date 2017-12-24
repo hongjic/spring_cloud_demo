@@ -1,0 +1,8 @@
+include 'service-gateway'
+include 'inventory-service-provider'
+include 'config-server'
+include 'eureka-service'
+include 'comment-service-provider'
+include 'hystrix-dashboard'
+include 'zipkin-service'
+
