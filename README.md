@@ -20,12 +20,15 @@
 
 1. http://localhost:8082/comments/1  // product1的评论
 2. http://localhost:8081/product/1  // product1信息
-3. http://localhost:8050/productDetail/1  // product1产品详情页数据
+3. http://localhost:8050/inventory/productDetail/1?password=123456  // product1产品详情页数据
 4. http://localhost:8761/  // eureka UI
 5. http://localhost:8010/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8050%2Fhystrix.stream  // Hystrix UI
 6. http://localhost:8079/zipkin/  // Zipkin UI
 
-Note:为了方便，只有id=1配置过。
+Note:
+1. 为了方便，只有id=1配置过。
+2. 访问apigateway时需要带上parameter：password=123456，这不是一个严谨的做法只是为了验证filter功能。
+3. 如果开启了hystrix可能会在zipkin界面看到很多非常小的请求，是hystrix的stream （还不完全确定是因为这个）
 
 ## 模块
 
