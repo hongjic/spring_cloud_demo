@@ -1,7 +1,5 @@
-package demo.service_gateway.data;
+package demo.inventory.data;
 
-import demo.comment.data.Comment;
-import demo.inventory.data.Product;
 
 import java.util.ArrayList;
 import java.util.List;

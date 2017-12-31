@@ -26,6 +26,7 @@ ext {
             "spring-cloud-starter-sleuth": 'org.springframework.cloud:spring-cloud-starter-sleuth:1.3.0.RELEASE',
             "spring-cloud-sleuth-zipkin": 'org.springframework.cloud:spring-cloud-sleuth-zipkin:1.3.0.RELEASE',
             "spring-cloud-starter-zuul": 'org.springframework.cloud:spring-cloud-starter-zuul:1.4.0.RELEASE',
+            "spring-cloud-starter-feign": 'org.springframework.cloud:spring-cloud-starter-feign:1.4.0.RELEASE',
             "spring-cloud-starter-ribbon": 'org.springframework.cloud:spring-cloud-starter-ribbon:1.4.0.RELEASE',
             "spring-config-server": 'org.springframework.cloud:spring-cloud-config-server:1.4.0.RELEASE',
             "spring-config-client": 'org.springframework.cloud:spring-cloud-config-client:1.4.0.RELEASE',

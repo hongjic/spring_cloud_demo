@@ -14,7 +14,9 @@ dependencies {
     compile deps["spring-cloud-starter-config"]
     compile deps["spring-cloud-starter-eureka"]
     compile deps["spring-cloud-starter-sleuth"]
+    compile deps["spring-cloud-starter-feign"]
     compile deps["spring-cloud-sleuth-zipkin"]
+    compile deps["spring-cloud-starter-hystrix"]
     compile deps["fastjson"]
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
