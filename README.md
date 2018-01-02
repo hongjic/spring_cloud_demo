@@ -22,7 +22,10 @@
 2. http://localhost:8081/product/1  // product1信息
 3. http://localhost:8050/inventory/productDetail/1?password=123456  // product1产品详情页数据
 4. http://localhost:8761/  // eureka UI
-5. http://localhost:8010/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8050%2Fhystrix.stream  // Hystrix UI
+5. http://localhost:8010/hystrix  //Hystrix UI
+   输入：
+    http://localhost:8050/hystrix.stream  网关处断路
+    http://localhost:8010/hystrix.stream  inventory-service处断路
 6. http://localhost:8079/zipkin/  // Zipkin UI
 
 Note:
